@@ -1,36 +1,127 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Credmint Frontend Assessment – Next.js Implementation
 
-## Getting Started
+This project is a frontend implementation of a design provided by **Credmint** as part of a technical assessment. The goal was to convert a Figma design into a fully functional, responsive web application using modern frontend tools.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📌 Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+👉 _Add your deployed link here (e.g., Vercel)_
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧠 Objective
 
-## Learn More
+- Convert the given Figma design into pixel-perfect UI  
+- Ensure responsiveness across devices  
+- Follow clean code practices and component-based architecture  
+- Optimize performance and accessibility where possible  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Framework:** Next.js (App Router / Pages Router — specify yours)  
+- **Styling:** Tailwind CSS / CSS Modules / Styled Components (choose yours)  
+- **Language:** JavaScript / TypeScript  
+- **Deployment:** Vercel (or your platform)  
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📂 Project Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    /components     → Reusable UI components  
+    /pages or /app  → Routing structure (Next.js)  
+    /styles         → Global and modular styles  
+    /public         → Static assets (images, icons)  
+    /utils          → Helper functions (if any)  
+
+---
+
+## ✨ Features
+
+- 🎯 Pixel-perfect implementation based on Figma  
+- 📱 Fully responsive design (mobile, tablet, desktop)  
+- ⚡ Optimized performance with Next.js  
+- ♻️ Reusable component-based architecture  
+- 🎨 Clean and modern UI  
+
+---
+
+## 📸 Screens Overview
+
+Sections implemented:
+
+- Hero Section (Landing banner)  
+- Business Showcase  
+- Platform Features  
+- Featured Work  
+- Interactive Visual Sections  
+- Brand Showcase  
+- CTA (Call-To-Action) Section  
+
+---
+
+## ⚙️ Getting Started
+
+### 1. Clone the repository
+
+    git clone https://github.com/your-username/your-repo-name.git
+    cd your-repo-name
+
+### 2. Install dependencies
+
+    npm install
+    # or
+    yarn install
+
+### 3. Run development server
+
+    npm run dev
+
+Open 👉 http://localhost:3000
+
+---
+
+## 🚀 Build for Production
+
+    npm run build
+    npm start
+
+---
+
+## 📏 Design Reference
+
+Figma design provided by **Credmint**  
+https://www.figma.com/design/tvnPVQITtLaYbfXRiQdMhU/CREDMINT_ECOMMERCE_MAIN-WEBSITE?node-id=0-1&t=4yICGQwFof7Jmatw-1
+
+---
+
+## 🧩 Challenges & Learnings
+
+- Translating complex layouts into reusable components  
+- Maintaining consistent spacing and typography  
+- Handling responsiveness for multiple screen sizes  
+- Optimizing images and assets in Next.js  
+
+---
+
+## 🔮 Improvements (If given more time)
+
+- Add animations (Framer Motion)  
+- Improve accessibility (ARIA roles, keyboard navigation)  
+- Add unit & integration tests  
+- Enhance performance with lazy loading & code splitting  
+
+---
+
+## 🙌 Acknowledgment
+
+Thanks to **Credmint** for providing this assessment opportunity.
+
+---
+
+## 📬 Contact
+
+- GitHub: https://github.com/m1010nish  
+- Email: manishsinghjnv11@gmail.com
