@@ -1,127 +1,84 @@
-# 🚀 Credmint Frontend Assessment – Next.js Implementation
+# 🚀 Credmint | Advanced Ecommerce Frontend Implementation
 
-This project is a frontend implementation of a design provided by **Credmint** as part of a technical assessment. The goal was to convert a Figma design into a fully functional, responsive web application using modern frontend tools.
+This repository contains the premium frontend implementation for **Credmint**, a stunning fashion e-commerce storefront platform. Built with a focus on high-fidelity design, smooth animations, and optimized performance.
 
 ---
 
 ## 📌 Live Demo
 
-👉 _Add your deployed link here (e.g., Vercel)_
-
----
-
-## 🧠 Objective
-
-- Convert the given Figma design into pixel-perfect UI  
-- Ensure responsiveness across devices  
-- Follow clean code practices and component-based architecture  
-- Optimize performance and accessibility where possible  
+👉 **[https://credmint-ecommerce.vercel.app/](https://credmint-ecommerce.vercel.app/)**
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Framework:** Next.js (App Router / Pages Router — specify yours)  
-- **Styling:** Tailwind CSS / CSS Modules / Styled Components (choose yours)  
-- **Language:** JavaScript / TypeScript  
-- **Deployment:** Vercel (or your platform)  
+- **Framework:** Next.js 16 (App Router)
+- **Styling:** Tailwind CSS 4
+- **Animations:** Framer Motion (useAnimationFrame, Motion Divs)
+- **Icons:** Lucide React
+- **Deployment:** Vercel
+
+---
+
+## ✨ Key Features
+
+- **🎯 Designer-Grade UI**: Pixel-perfect implementation based on professional Figma designs.
+- **🌌 Orbital Performance Carousel**: A smooth, math-driven arc animation showcasing platform previews with dynamic scaling and depth.
+- **🍸 Premium Glassmorphism**: High-end floating Navbar with sophisticated backdrop-blur effects and thin-border detailing.
+- **⚡ Performance Optimized**: Large base64 assets were replaced with optimized external PNGs, reducing component size from ~5MB to ~4KB.
+- **🛡️ Hydration Resilient**: Implemented smart client-side mount guards to eliminate SSR/Client mismatches.
+- **📱 Fully Responsive**: Seamless transition from mobile touchpoints to 4K cinematic displays.
 
 ---
 
 ## 📂 Project Structure
 
-    /components     → Reusable UI components  
-    /pages or /app  → Routing structure (Next.js)  
-    /styles         → Global and modular styles  
-    /public         → Static assets (images, icons)  
-    /utils          → Helper functions (if any)  
-
----
-
-## ✨ Features
-
-- 🎯 Pixel-perfect implementation based on Figma  
-- 📱 Fully responsive design (mobile, tablet, desktop)  
-- ⚡ Optimized performance with Next.js  
-- ♻️ Reusable component-based architecture  
-- 🎨 Clean and modern UI  
-
----
-
-## 📸 Screens Overview
-
-Sections implemented:
-
-- Hero Section (Landing banner)  
-- Business Showcase  
-- Platform Features  
-- Featured Work  
-- Interactive Visual Sections  
-- Brand Showcase  
-- CTA (Call-To-Action) Section  
+    /components     → Reusable UI components (Hero, Navbar, etc.)
+    /app            → App Router and page structure
+    /public         → Optimized static assets
+    /lib            → Utility logic (Tailwind merge, etc.)
 
 ---
 
 ## ⚙️ Getting Started
 
 ### 1. Clone the repository
-
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
+```bash
+git clone https://github.com/m1010nish/credmint-ecommerce.git
+cd credmint-ecommerce
+```
 
 ### 2. Install dependencies
-
-    npm install
-    # or
-    yarn install
+```bash
+npm install
+```
 
 ### 3. Run development server
+```bash
+npm run dev
+```
 
-    npm run dev
-
-Open 👉 http://localhost:3000
+Open 👉 **http://localhost:3000**
 
 ---
 
 ## 🚀 Build for Production
-
-    npm run build
-    npm start
+```bash
+npm run build
+npm start
+```
 
 ---
 
 ## 📏 Design Reference
 
 Figma design provided by **Credmint**  
-https://www.figma.com/design/tvnPVQITtLaYbfXRiQdMhU/CREDMINT_ECOMMERCE_MAIN-WEBSITE?node-id=0-1&t=4yICGQwFof7Jmatw-1
-
----
-
-## 🧩 Challenges & Learnings
-
-- Translating complex layouts into reusable components  
-- Maintaining consistent spacing and typography  
-- Handling responsiveness for multiple screen sizes  
-- Optimizing images and assets in Next.js  
-
----
-
-## 🔮 Improvements (If given more time)
-
-- Add animations (Framer Motion)  
-- Improve accessibility (ARIA roles, keyboard navigation)  
-- Add unit & integration tests  
-- Enhance performance with lazy loading & code splitting  
-
----
-
-## 🙌 Acknowledgment
-
-Thanks to **Credmint** for providing this assessment opportunity.
+[Figma Link](https://www.figma.com/design/tvnPVQITtLaYbfXRiQdMhU/CREDMINT_ECOMMERCE_MAIN-WEBSITE?node-id=0-1&t=4yICGQwFof7Jmatw-1)
 
 ---
 
 ## 📬 Contact
 
-- GitHub: https://github.com/m1010nish  
-- Email: manishsinghjnv11@gmail.com
+- **GitHub**: [github.com/m1010nish](https://github.com/m1010nish)
+- **Repo**: [Credmint E-commerce](https://github.com/m1010nish/credmint-ecommerce.git)
+- **Email**: manishsinghjnv11@gmail.com
