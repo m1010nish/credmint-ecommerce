@@ -31,7 +31,6 @@ export function Navbar() {
         "fixed top-4 left-1/2 -translate-x-1/2 z-50 transition-all duration-300 w-[calc(100%-2rem)] max-w-5xl",
       )}
     >
-      {/* Pill-shaped navbar container — matches the frosted pill in screenshot */}
       <div
         className={cn(
           "rounded-xl flex items-center justify-center px-8 py-4 transition-all duration-300 relative border border-white/10",
