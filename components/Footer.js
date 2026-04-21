@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 const BrandInstagram = ({ size = 24 }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -108,29 +109,15 @@ export function Footer() {
             ))}
           </div>
         </div>
-
-        {/* Newsletter / CTA */}
-        <div className="relative mb-32 rounded-[40px] bg-gradient-to-br from-zinc-800 to-zinc-900 p-12 md:p-20 overflow-hidden text-center flex flex-col items-center gap-8">
-          <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]" />
-          <h2 className="text-4xl md:text-6xl font-black tracking-tight leading-none">
-            READY TO LAUNCH YOUR <br />
-            <span className="text-zinc-500 italic">DOMINATION?</span>
-          </h2>
-          <button className="bg-white text-black px-10 py-5 rounded-2xl text-lg font-black hover:scale-105 active:scale-95 transition-transform">
-            GET STARTED FOR FREE
-          </button>
-        </div>
-
-        {/* Bottom Bar */}
-        <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8">
-          <p className="text-sm font-bold text-zinc-600 uppercase tracking-widest">
-            © 2026 CREDMINT INC. ALL RIGHTS RESERVED.
-          </p>
-          <div className="flex gap-8 text-sm font-bold text-zinc-600 uppercase tracking-widest">
-            <Link href="#" className="hover:text-white transition-colors">Privacy Policy</Link>
-            <Link href="#" className="hover:text-white transition-colors">Terms of Service</Link>
-          </div>
-        </div>
+      </div>
+      <div className="w-full">
+        <Image
+          src="/images/foot.png"
+          alt="Footer Graphic"
+          width={1920}
+          height={400}
+          className="w-full h-auto object-cover mb-[-4px]"
+        />
       </div>
     </footer>
   );

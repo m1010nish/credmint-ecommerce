@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { motion, useAnimationFrame } from "framer-motion";
 import { ArrowRight } from "lucide-react";
@@ -55,11 +55,11 @@ export function Hero() {
       </div>
 
       {/* Hero Content — Centered */}
-      <div className="relative z-20 text-center px-6 max-w-5xl flex flex-col items-center gap-8 mb-20 mt-20">
+      <div className="relative z-20 text-center px-6 max-w-7xl flex flex-col items-center gap-8 mb-20 mt-20">
         <motion.h1 
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
-          className="text-white text-5xl md:text-7xl lg:text-[80px] font-bold tracking-tight uppercase leading-[1.05]"
+          className="text-white text-5xl md:text-7xl lg:text-[80px] tracking-tight uppercase leading-[1.05] font-montserrat"
         >
           Launch Your Fashion Brand <br />
           Online — Fast.
