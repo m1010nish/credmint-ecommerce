@@ -10,7 +10,7 @@ import { PartnerLogos } from "@/components/PartnerLogos";
 import { Footer } from "@/components/Footer";
 
 export const metadata = {
-  title: "Credmint | Launch Your Fashion Brand Online — Fast",
+  title: "Credmint | Launch Your Fashion Brand Online — Fast Test Chcek",
   description: "Global infrastructure for the next generation of fashion empires. Build, grow, and dominate with Credmint's stunning storefronts and powerful AI-driven admin panel.",
 };
 
